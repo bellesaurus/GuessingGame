@@ -30,6 +30,8 @@ public class GuessGame {
                 System.out.println("Get low, get low!");
             }
         }
-        System.out.println("Uh oh, you've  reached the limit. Try again next time.");
+        if(tries>=5){
+            System.out.println("Uh oh, you've  reached the limit. Try again next time.");
+        }
     }
 }
